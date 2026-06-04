@@ -1,0 +1,6 @@
+Plan -
+1. Add maximized window state on window_state.rs inside window_common
+2. Update set_non_tiling() function inside update_window_state.rs in wm/commands/window
+3. Update update_window_state() function inside update_window_state.rs in wm/commands/window
+4. Check where in main looop update_window_state() is used and add the maximized input there
+5. figure out how the config.yaml work and add the shortcout for the maximized there
